@@ -56,3 +56,13 @@ INSERT INTO Accounts (AccountID, CustomerID, AccountType, Balance) VALUES
 (1026, 24, 'Checking', 1200.00),
 (1027, 25, 'Savings', 8900.00);
 
+-- Insert transactions
+INSERT INTO Transactions (TransactionID, AccountID, Amount, TransactionDate, TransactionType) VALUES
+(1000, 100, 1000.00, '2025-04-01', 'Deposit'),
+(1001, 100, -200.00, '2025-04-02', 'Withdrawal'),
+(1002, 101, 500.00, '2025-04-03', 'Deposit'),
+(1003, 102, -100.00, '2025-04-04', 'Withdrawal'),
+(1004, 103, 250.75, '2025-04-05', 'Deposit');
+
+-- view all transactions
+SELECT * FROM Transactions

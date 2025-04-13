@@ -1,6 +1,0 @@
-SELECT TOP (1000) [TransactionID]
-      ,[AccountID]
-      ,[Amount]
-      ,[TransactionDate]
-      ,[TransactionType]
-  FROM [HokkaidoBankCorp].[dbo].[Transactions]
